@@ -163,33 +163,33 @@ module.exports = {
                 }
 
                 if (rolereq && invite && bonusRole && sponsor) {
-    messages.inviteToParticipate = `### **React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Extra Req:** [join this server](${invite})\n<:arrow:1247608720767193108> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `### **React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (rolereq && invite && bonusRole && !sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Extra Req:** [join this server](${invite})\n<:arrow:1247608720767193108> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}`;
 } else if (rolereq && invite && !bonusRole && sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Extra Req:** [join this server](${invite})\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (rolereq && invite && !bonusRole && !sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Extra Req:** [join this server](${invite})`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})`;
 } else if (rolereq && !invite && bonusRole && sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (rolereq && !invite && bonusRole && !sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}`;
 } else if (rolereq && !invite && !bonusRole && sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (rolereq && !invite && !bonusRole && !sponsor) {
     messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Required Role:** ${rolereq}`;
 } else if (!rolereq && invite && bonusRole && sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:arrow:1247608720767193108> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (!rolereq && invite && bonusRole && !sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:arrow:1247608720767193108> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}`;
 } else if (!rolereq && invite && !bonusRole && sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (!rolereq && invite && !bonusRole && !sponsor) {
     messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Extra Req:** [join this server](${invite})`;
 } else if (!rolereq && !invite && bonusRole && sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}\n<:arrow:1247608720767193108> **Sponsored By:** ${sponsor}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 } else if (!rolereq && !invite && bonusRole && !sponsor) {
-    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:arrow:1247608720767193108> **Bonus Entries:** ${bonusEntries}`;
+    messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Bonus Role:** ${bonusRole}\n<:freak_arrow:1255442427603325009> **Bonus Entries:** ${bonusEntries}`;
 } else if (!rolereq && !invite && !bonusRole && sponsor) {
     messages.inviteToParticipate = `**React with <:freak_gw:1255442571090722827> to participate!**\n<:freak_arrow:1255442427603325009> **Sponsored By:** ${sponsor}`;
 }
